@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 10px;
+    background: #23252C;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    user-select: none;
+}
+
+/* utility */
+.text-alignment {
+    text-align: center;
+}
+
+/* layout & typography */
+.container {
+    max-width: 300px;
+    margin: auto;
+    background: #1A1B21;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0 #00000040;
+}
+
+.inner-container {
+    padding: 20px 30px 0px;   
+}
+
+.profile-pic {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.profile-name {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px auto 5px auto;
+}
+
+.profile-role {
+    font-size: 13px;
+    color: #F3BF99;
+}
+
+.profile-website {
+    font-size: 10px;
+    color: #F5F5F5;
+    margin: 15px auto 10px;
+}
+
+.professional-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-links {
+    background: #ffffff;
+    padding: 10px 15px;
+    width: 45%;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.email {
+    color: #374151;
+    border: 1px solid #d1d5db;
+}
+
+.email:hover,
+.email:active {
+    background: #d1d5db;
+}
+
+.linkedin {
+    color: #ffffff;
+    background: #5093E2;
+}
+
+.linkedin:hover,
+.linkedin:active
+{
+    background: #2786f2;
+}
+
+.email-icon {
+    color: #1E1F26;  
+}
+
+.professional-contact-icon {
+    margin-right: 5px;
+}
+
+.brief {
+    margin: 40px auto 40px;
+}
+
+.brief-item {
+    margin: 20px auto;
+}
+
+.brief-heading {
+    font-weight: 900;
+}
+
+.brief-text {
+    font-size: 12px;
+}
+
+.social-contact-icons {
+    background: #161619;
+    padding: 10px 0 10px 0;
+    font-size: 30px;
+    border-radius: 0 0 10px 10px;
+}
+
+.social-icon-item {
+    margin: 0px 10px;
+    color: #918E9B;
+    text-decoration: none;
+}
+
+.social-icon-item:hover,
+.social-icon-item:active {
+    color: #dad5e8;
+}
